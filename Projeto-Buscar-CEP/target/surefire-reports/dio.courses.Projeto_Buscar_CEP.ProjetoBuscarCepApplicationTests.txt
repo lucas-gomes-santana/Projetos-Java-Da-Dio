@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: dio.courses.Projeto_Buscar_CEP.ProjetoBuscarCepApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.794 s -- in dio.courses.Projeto_Buscar_CEP.ProjetoBuscarCepApplicationTests
