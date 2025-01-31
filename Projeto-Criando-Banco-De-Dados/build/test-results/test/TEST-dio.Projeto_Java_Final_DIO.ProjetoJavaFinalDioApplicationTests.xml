@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dio.Projeto_Java_Final_DIO.ProjetoJavaFinalDioApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-31T21:45:10" hostname="lucas-Latitude-5410" time="0.437">
+  <properties/>
+  <testcase name="contextLoads()" classname="dio.Projeto_Java_Final_DIO.ProjetoJavaFinalDioApplicationTests" time="0.437"/>
+  <system-out><![CDATA[18:45:05.891 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [dio.Projeto_Java_Final_DIO.ProjetoJavaFinalDioApplicationTests]: ProjetoJavaFinalDioApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:45:05.980 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration dio.Projeto_Java_Final_DIO.Application for test class dio.Projeto_Java_Final_DIO.ProjetoJavaFinalDioApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-01-31T18:45:06.373-03:00  INFO 4859 --- [    Test worker] d.P.ProjetoJavaFinalDioApplicationTests  : Starting ProjetoJavaFinalDioApplicationTests using Java 17.0.13 with PID 4859 (started by lucas in /home/lucas/Projetos-Java-Da-DIO/Projeto-Criando-Banco-De-Dados)
+2025-01-31T18:45:06.375-03:00  INFO 4859 --- [    Test worker] d.P.ProjetoJavaFinalDioApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-01-31T18:45:07.177-03:00  INFO 4859 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-31T18:45:07.233-03:00  INFO 4859 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-01-31T18:45:07.675-03:00  INFO 4859 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-31T18:45:07.862-03:00  INFO 4859 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:7503bd9a-6de7-449f-b5ee-d2ed8493ced3 user=SA
+2025-01-31T18:45:07.864-03:00  INFO 4859 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-31T18:45:07.940-03:00  INFO 4859 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-31T18:45:08.003-03:00  INFO 4859 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-31T18:45:08.037-03:00  INFO 4859 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-31T18:45:08.298-03:00  INFO 4859 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-31T18:45:08.373-03:00  INFO 4859 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-31T18:45:09.201-03:00  INFO 4859 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-31T18:45:09.257-03:00  INFO 4859 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-31T18:45:09.749-03:00  WARN 4859 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-31T18:45:09.795-03:00  INFO 4859 --- [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-31T18:45:10.252-03:00  INFO 4859 --- [    Test worker] d.P.ProjetoJavaFinalDioApplicationTests  : Started ProjetoJavaFinalDioApplicationTests in 4.142 seconds (process running for 5.078)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
